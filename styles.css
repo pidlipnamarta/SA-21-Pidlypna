@@ -429,7 +429,7 @@ body {
 .flower-name {
     font-family: 'Sofia Sans', sans-serif;
     font-size: 23px;
-    font-weight: 700;
+    font-weight: bold;
     color: #315559;
     margin: 0 0 5px 0;
     text-align: left;
@@ -447,7 +447,7 @@ body {
 .flower-price {
     font-family: 'Sofia Sans', sans-serif;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: bold;
     color: #315559;
     margin:0;
     text-align:left;
@@ -458,8 +458,6 @@ body {
     .about-img img{
         width: 60vw;
         height: auto;
-    }
-    .catalog{
     }
     .catalog-items {
         gap: 40px;
@@ -672,9 +670,10 @@ body {
     padding-top: 50px;
 }   
 .extra-wrap{
-  display: grid;
-    align-items: stretch;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
     padding-top: 25px;
 }
 .extra-col{
@@ -740,7 +739,7 @@ body {
         padding-bottom: 6px;
     }
     .delivery-video{
-        height:27%;
+        height:22%;
     }
     .extra-wrap{
         display: flex;
@@ -762,7 +761,7 @@ body {
     }
 }
 @media (max-width:900px){
-  .delivery{
+    .delivery{
         padding:60px 20px; 
     }
 }
@@ -1004,7 +1003,6 @@ body {
     justify-content: center;
     gap: 12px;
     cursor: pointer;
-    transition: background 0.3s, transform 0.2s;
     margin: 0 auto;
     margin-top: 20px;
 }
